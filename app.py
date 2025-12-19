@@ -2238,7 +2238,6 @@ def show_analysis_page(model, tokenizer, label_encoder, colors):
             <div style="display: flex; justify-content: center; align-items: center; gap: 1rem; flex-wrap: wrap; margin-bottom: 1rem;">
                 <span style="font-size: 1.25rem;">🚀</span>
                 <span style="font-weight: 600; font-size: 1rem;">{get_text('powered_by')}</span>
-
                 <span style="opacity: 0.5;">•</span>
                 <span style="background: linear-gradient(135deg, {colors["secondary_color"]}, {colors["accent_color"]}); 
                              -webkit-background-clip: text; -webkit-text-fill-color: transparent; 
