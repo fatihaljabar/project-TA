@@ -15,9 +15,9 @@ st.set_page_config(
 
 # Constants
 MAX_LEN = 128
-MODEL_PATH = "pytorch_model.bin"
-TOKENIZER_PATH = None
-LABEL_ENCODER_PATH = "kaggle/working/model_outputs/label_encoder.pkl"
+MODEL_PATH = "model_outputs_epoch_150/CNN + BiLSTM.h5"
+TOKENIZER_PATH = "model_outputs_epoch_150/tokenizer.pkl"
+LABEL_ENCODER_PATH = "model_outputs_epoch_150/label_encoder.pkl"
 
 # Initialize session state for language
 if "language" not in st.session_state:
